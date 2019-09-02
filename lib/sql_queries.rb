@@ -7,7 +7,7 @@ def selects_all_bears_names_and_orders_in_alphabetical_order
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
-  "SELECT name, age COUNT(alive) FROM bears GROUP BY alive"
+  "SELECT name(1), age(1) FROM bears ORDER BY name(1), age(1) ASC"
 
 end
 
